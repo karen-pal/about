@@ -1,5 +1,5 @@
 /* Style the button that is used to open and close the collapsible content */
-.collapsible {
+/*.collapsible {
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -11,11 +11,11 @@
   font-size: 15px;
 }
 
+*/
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
   background-color: #ccc;
 }
-
 /* Style the collapsible content. Note: hidden by default */
 .content {
   padding: 0 18px;
@@ -23,21 +23,24 @@
   overflow: hidden;
   background-color: #f1f1f1;
 }
-h1 { font-family: Ubuntu; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Ubuntu; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Ubuntu; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Ubuntu; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Ubuntu; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; } 
 
 html {
-
     font-family: Ubuntu;
     background: rgb(217,213,176);
-background: linear-gradient(180deg, rgba(217,213,176,1) 0%, rgba(237,186,119,1) 100%);
-background: rgb(240,230,249);
-background: linear-gradient(180deg, rgba(4,3,9,1) 0%, rgba(6,7,4,1) 100%);
-  margin-right: 350px;
-  color:white;
+    background: linear-gradient(180deg, rgba(217,213,176,1) 0%, rgba(237,186,119,1) 100%);
+    background: rgb(240,230,249);
+    background: linear-gradient(180deg, rgba(4,3,9,1) 0%, rgba(6,7,4,1) 100%);
+    margin-right: 10%;
+    margin-left:10%;
+    color:white;
+  overflow: hidden;
 }
 h1 {
-    font-size:10vh;
+    font-size:10vw;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(50,186,19,1) 100%);
+}
+#name1 { line-height: 20%; } 
+h2 { font-size:8vw;
 }
 #sun {
     position:absolute;
@@ -64,12 +67,13 @@ h1 {
 
 #links{
   text-align: center;
-    font-size:5vh;
+    font-size:5vw;
     background: linear-gradient(90deg, rgba(50,186,19,1) 0%, rgba(0,0,0,1) 100%);
+    margin-top:5%;
 }
 
 a {
-    font-size:5vh;
+    font-size:5vw;
 
 }
    a:visited {color: rgba(148, 179, 154,1);}  
