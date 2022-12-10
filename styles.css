@@ -7,7 +7,7 @@ html {
     margin-right: 10%;
     margin-left:10%;
     color:white;
-    font-size:2.5vw;
+    --font-size:2.5vw;
 }
 h1 {
     font-size:10vw;
@@ -16,6 +16,9 @@ h1 {
 #name1 { font-family:'Ubuntu', sans-serif;line-height: 5vw; } 
 h2 { font-size:8vw;
 }
+
+
+
 #header {
     filter:invert() drop-shadow(12px 12px 25px rgba(255,255,255,.4));
     -webkit-filter: invert() drop-shadow(12px 12px 25px rgba(255,255,255,.4));
@@ -78,5 +81,29 @@ h2 { font-size:8vw;
     .navbar .flex-container{
         flex-direction: row-reverse !important;
     }
+    p{
+        font-size:2.5vw;
+    }
  
+}
+@media (max-width: 600px){
+    p{
+        font-size:6vw;
+    }
+
+
+}
+
+.video-responsive{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.video-responsive iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
 }
